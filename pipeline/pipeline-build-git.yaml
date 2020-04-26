@@ -12,7 +12,7 @@ spec:
     - name: GIT_REPOSITORY
       type: string
       description: Url without https:// for infra git repo
-      default: github.com/csantanapr/tutorial-tekton-argocd-infra
+      default: github.com/liuxiaoyu-git/tutorial-tekton-argocd-infra
     - name: GIT_MANIFEST_DIR
       type: string
       description: directory with manifests
@@ -20,11 +20,11 @@ spec:
     - name: GIT_EMAIL
       type: string
       description: Email for Git author
-      default: csantana@us.ibm.com
+      default: your@email.com
     - name: GIT_NAME
       type: string
       description: Name for Git author
-      default: Carlos Santana
+      default: YOUR NAME
   tasks:
     - name: task
       taskRef:
