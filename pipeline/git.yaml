@@ -8,4 +8,4 @@ spec:
     - name: revision
       value: master
     - name: url
-      value: https://github.com/csantanapr/tutorial-tekton-argocd-code
+      value: https://github.com/liuxiaoyu-git/tutorial-tekton-argocd-code
