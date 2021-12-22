@@ -12,7 +12,7 @@ spec:
     - name: GIT_REPOSITORY
       type: string
       description: Url without https:// for infra git repo
-      default: github.com/liuxiaoyu-git/tutorial-tekton-argocd-infra
+      default: github.com/zjd713/tutorial-tekton-argocd-infra
     - name: GIT_MANIFEST_DIR
       type: string
       description: directory with manifests
